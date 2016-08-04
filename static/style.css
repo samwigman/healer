@@ -1,6 +1,7 @@
 body {
     font-family: 'Verdana', sans-serif;
     margin: 50px 25px;
+	word-wrap: break-word;
 }
 
 a {
@@ -45,9 +46,33 @@ img {
   width: 100%;
 }
 
-.third-column {
+.columns > div {
   display: inline-block;
   vertical-align: top;
-  padding: 0 2%;
-  width: 25%;
+  padding: 0%;
+}
+
+
+.third {
+	width: 30%;
+}
+
+.half {
+	width: 45%
+}
+.half:last-child {
+	padding-left: 1rem;
+}
+
+.block-product {
+	margin-bottom: 1rem;
+}
+
+footer .contact {
+  border: .0625rem solid;
+  display: table;
+}
+
+footer .contact p {
+  margin: 0 auto;
 }
